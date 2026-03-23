@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: linear-gradient(to bottom, #fff7f3, #f3e7dc);
+  color: #4a3f35;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px 40px;
+}
+
+.hero .tag {
+  font-size: 12px;
+  letter-spacing: 2px;
+  opacity: 0.6;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.hero h1 span {
+  color: #e57373;
+  font-style: italic;
+}
+
+.subtitle {
+  max-width: 500px;
+  margin: 0 auto;
+  opacity: 0.7;
+}
+
+.scroll {
+  margin-top: 20px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+/* TWINE SECTION */
+.twine {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.memory {
+  position: relative;
+  margin: 80px 0;
+}
+
+.string {
+  height: 3px;
+  background: #8d6e63;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* POLAROIDS */
+.polaroid {
+  width: 280px;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.polaroid:hover {
+  transform: translateY(-5px) rotate(0deg);
+}
+
+.polaroid.left {
+  transform: rotate(-3deg);
+}
+
+.polaroid.right {
+  margin-left: auto;
+  transform: rotate(3deg);
+}
+
+.polaroid img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+/* CAPTION */
+.caption {
+  padding: 10px 5px;
+}
+
+.caption .date {
+  font-size: 10px;
+  letter-spacing: 1px;
+  opacity: 0.5;
+}
+
+.caption h2 {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+.caption p {
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+/* FINAL */
+.final {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.final h3 {
+  font-size: 28px;
+}
+
+.final p {
+  max-width: 500px;
+  margin: 20px auto;
+  opacity: 0.7;
+}
+
+.heart {
+  font-size: 24px;
+  margin-top: 10px;
+}
